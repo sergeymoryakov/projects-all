@@ -1,0 +1,7 @@
+# Ignore drafts folder
+
+drafts/
+
+# Ignore DS_Store
+
+.DS_Store
