@@ -19,9 +19,9 @@ export const projectsData = [
         important: true,
     },
     {
-        name: "Metrica",
-        description: "Website for Metrica Interior Design Studio (HTML & CSS)",
-        link: "https://sergeymoryakov.github.io/metrica/",
+        name: "LumiLine",
+        description: "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        link: "https://github.com/sergeymoryakov/lumiline-website/",
         important: true,
     },
     {
