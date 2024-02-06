@@ -21,7 +21,7 @@ export const projectsData = [
     {
         name: "LumiLine",
         description: "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
-        link: "https://github.com/sergeymoryakov/lumiline-website/",
+        link: "https://sergeymoryakov.github.io/lumiline-website/",
         important: true,
     },
     {
