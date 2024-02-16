@@ -19,9 +19,9 @@ export const projectsData = [
         important: true,
     },
     {
-        name: "Metrica",
-        description: "Website for Metrica Interior Design Studio (HTML & CSS)",
-        link: "https://sergeymoryakov.github.io/metrica/",
+        name: "LumiLine",
+        description: "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        link: "https://sergeymoryakov.github.io/lumiline-website/",
         important: true,
     },
     {
@@ -29,6 +29,13 @@ export const projectsData = [
         description:
             "Aviation Asset Marketplace Platform (JavaScript & Parcel)",
         link: "https://sergeymoryakov.github.io/ecommerce-avia/",
+        important: true,
+    },
+    {
+        name: "WebDev Cheat Sheets",
+        description:
+            "Web Developer Cheat Sheets (Vite, React, TypeScript, and Material UI)",
+        link: "https://sergeymoryakov.github.io/cheat-sheets-2024/",
         important: true,
     },
     {
@@ -78,13 +85,6 @@ export const projectsData = [
         name: "Bored",
         description: "Entertaining App for JavaScript Practice",
         link: "https://sergeymoryakov.github.io/bored",
-        important: false,
-    },
-    {
-        name: "Cheat Sheets",
-        description:
-            "Collection of Cheat Sheets for Junior Front-end Developers (HTML, CSS & JavaScript)",
-        link: "https://sergeymoryakov.github.io/cheat-sheets",
         important: false,
     },
     // {
