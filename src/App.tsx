@@ -5,6 +5,7 @@ import {
     CssBaseline,
     Container,
     Grid,
+    IconButton,
     Toolbar,
     Typography,
 } from "@mui/material";
@@ -13,6 +14,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Logo from "./Components/Logo";
 import MediaCard from "./Components/MediaCard";
 import projects from "./data/data";
+
+const URL_GITHUB_ACCOUNT = "https://github.com/sergeymoryakov/";
 
 console.log("projects: ", projects);
 
@@ -29,7 +32,15 @@ function App() {
                     }}
                 >
                     <Logo></Logo>
-                    <GitHubIcon />
+                    <IconButton
+                        LinkComponent="a"
+                        href={URL_GITHUB_ACCOUNT}
+                        target="_blank"
+                        aria-label="github url"
+                        sx={{ color: "#ffffff" }}
+                    >
+                        <GitHubIcon />
+                    </IconButton>
                 </Toolbar>
             </AppBar>
             <main>

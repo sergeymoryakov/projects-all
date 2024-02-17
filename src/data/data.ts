@@ -10,6 +10,16 @@ export interface Project {
 
 const projects: Project[] = [
     {
+        title: "SEPPO.Digital",
+        description:
+            "Website for SEPPO.digital Web Studio (HTML, CSS, JavaScript)",
+        image: "seppo-m.jpeg",
+        view: "https://sergeymoryakov.github.io/seppo-digital/",
+        code: "https://github.com/sergeymoryakov/seppo-digital/",
+        display: true,
+        id: 0,
+    },
+    {
         title: "Karagoz Aviation",
         description:
             "Karagoz Aviation Website (HTML, CSS, Javascript, Web Components, Vite)",

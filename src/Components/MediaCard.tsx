@@ -49,6 +49,7 @@ export default function MediaCard({ project }: projectProps) {
                     LinkComponent="a"
                     href={project.code}
                     target="_blank"
+                    aria-label="code url"
                 >
                     Code
                 </Button> */}
@@ -57,6 +58,7 @@ export default function MediaCard({ project }: projectProps) {
                     LinkComponent="a"
                     href={project.view}
                     target="_blank"
+                    aria-label="view url"
                 >
                     View
                 </Button>

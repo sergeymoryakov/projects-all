@@ -7,7 +7,7 @@ function Logo() {
         <Box
             display="flex"
             flexDirection="row"
-            gap="0.5rem"
+            gap="0.2rem"
             alignItems="center"
         >
             <AnchorIcon />
