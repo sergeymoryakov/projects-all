@@ -1,16 +1,15 @@
-import React from "react";
 import { Typography, Box } from "@mui/material";
-import AnchorIcon from "@mui/icons-material/Anchor";
+// import AnchorIcon from "@mui/icons-material/Anchor";
 
 function Logo() {
     return (
         <Box
-            display="flex"
-            flexDirection="row"
-            gap="0.2rem"
-            alignItems="center"
+        // display="flex"
+        // flexDirection="row"
+        // gap="0.2rem"
+        // alignItems="center"
         >
-            <AnchorIcon />
+            {/* <AnchorIcon /> */}
             <Typography variant="h5" align="center">
                 SEPPO.digital
             </Typography>

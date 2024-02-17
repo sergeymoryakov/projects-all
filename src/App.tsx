@@ -1,4 +1,3 @@
-import React from "react";
 import {
     AppBar,
     Box,
@@ -16,8 +15,11 @@ import MediaCard from "./Components/MediaCard";
 import StickyFooter from "./Components/StickyFooter";
 
 import projects from "./data/data";
-
-const URL_GITHUB_ACCOUNT = "https://github.com/sergeymoryakov/";
+import {
+    COLOR_BACKGROUND,
+    COLOR_FONT,
+    URL_GITHUB_ACCOUNT,
+} from "./data/variables";
 
 console.log("projects: ", projects);
 
@@ -33,7 +35,10 @@ function App() {
             }}
         >
             <CssBaseline />
-            <AppBar position="relative" sx={{ backgroundColor: "#002060" }}>
+            <AppBar
+                position="relative"
+                sx={{ backgroundColor: COLOR_BACKGROUND }}
+            >
                 <Toolbar
                     sx={{
                         display: "flex",
@@ -47,7 +52,7 @@ function App() {
                         href={URL_GITHUB_ACCOUNT}
                         target="_blank"
                         aria-label="github url"
-                        sx={{ color: "#ffffff" }}
+                        sx={{ color: COLOR_FONT }}
                     >
                         <GitHubIcon />
                     </IconButton>

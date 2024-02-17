@@ -1,18 +1,17 @@
-import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
+import { COLOR_BACKGROUND, COLOR_FONT } from "../data/variables";
 
 export default function StickyFooter() {
     return (
         <Box
             component="footer"
             sx={{
-                py: 3,
-                px: 2,
+                py: 2,
                 mt: "auto",
-                backgroundColor: "#002060",
-                color: "#fff",
+                backgroundColor: COLOR_BACKGROUND,
+                color: COLOR_FONT,
             }}
         >
             <Container maxWidth="sm">
