@@ -10,16 +10,6 @@ export interface Project {
 
 const projects: Project[] = [
     {
-        title: "SEPPO.Digital",
-        description:
-            "Website for SEPPO.digital Web Studio (HTML, CSS, JavaScript)",
-        image: "seppo-m.jpeg",
-        view: "https://sergeymoryakov.github.io/seppo-digital/",
-        code: "https://github.com/sergeymoryakov/seppo-digital/",
-        display: true,
-        id: 0,
-    },
-    {
         title: "Karagoz Aviation",
         description:
             "Karagoz Aviation Website (HTML, CSS, Javascript, Web Components, Vite)",
@@ -51,7 +41,7 @@ const projects: Project[] = [
     },
     {
         title: "SEPPO.Digital",
-        description: "Website for SEPPO.digital Studio (JavaScript)",
+        description: "Website for SEPPO.digital Studio (HTML, CSS, JavaScript)",
         image: "seppo-m.jpeg",
         view: "https://sergeymoryakov.github.io/seppo-digital/",
         code: "https://github.com/sergeymoryakov/seppo-digital/",
@@ -59,40 +49,54 @@ const projects: Project[] = [
         id: 4,
     },
     {
-        title: "SEPPO.Digital",
-        description: "Website for SEPPO.digital Studio (JavaScript)",
-        image: "seppo-m.jpeg",
-        view: "https://sergeymoryakov.github.io/seppo-digital/",
-        code: "https://github.com/sergeymoryakov/seppo-digital/",
+        title: "LumiLine",
+        description:
+            "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        image: "lumiline-m.jpeg",
+        view: "https://sergeymoryakov.github.io/lumiline-website/",
+        code: "https://github.com/sergeymoryakov/lumiline-website/",
         display: true,
         id: 5,
     },
     {
-        title: "SEPPO.Digital",
-        description: "Website for SEPPO.digital Studio (JavaScript)",
-        image: "seppo-m.jpeg",
-        view: "https://sergeymoryakov.github.io/seppo-digital/",
-        code: "https://github.com/sergeymoryakov/seppo-digital/",
+        title: "LumiLine",
+        description:
+            "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        image: "lumiline-m.jpeg",
+        view: "https://sergeymoryakov.github.io/lumiline-website/",
+        code: "https://github.com/sergeymoryakov/lumiline-website/",
         display: true,
         id: 6,
     },
     {
-        title: "SEPPO.Digital",
-        description: "Website for SEPPO.digital Studio (JavaScript)",
-        image: "seppo-m.jpeg",
-        view: "https://sergeymoryakov.github.io/seppo-digital/",
-        code: "https://github.com/sergeymoryakov/seppo-digital/",
+        title: "LumiLine",
+        description:
+            "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        image: "lumiline-m.jpeg",
+        view: "https://sergeymoryakov.github.io/lumiline-website/",
+        code: "https://github.com/sergeymoryakov/lumiline-website/",
         display: true,
         id: 7,
     },
     {
-        title: "SEPPO.Digital",
-        description: "Website for SEPPO.digital Studio (JavaScript)",
-        image: "seppo-m.jpeg",
-        view: "https://sergeymoryakov.github.io/seppo-digital/",
-        code: "https://github.com/sergeymoryakov/seppo-digital/",
+        title: "LumiLine",
+        description:
+            "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        image: "lumiline-m.jpeg",
+        view: "https://sergeymoryakov.github.io/lumiline-website/",
+        code: "https://github.com/sergeymoryakov/lumiline-website/",
         display: true,
         id: 8,
+    },
+    {
+        title: "LumiLine",
+        description:
+            "Website for LumiLine Interior Design Studio (HTML, CSS, JavaScript)",
+        image: "lumiline-m.jpeg",
+        view: "https://sergeymoryakov.github.io/lumiline-website/",
+        code: "https://github.com/sergeymoryakov/lumiline-website/",
+        display: true,
+        id: 9,
     },
 ];
 

@@ -13,6 +13,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Logo from "./Components/Logo";
 import MediaCard from "./Components/MediaCard";
+import StickyFooter from "./Components/StickyFooter";
+
 import projects from "./data/data";
 
 const URL_GITHUB_ACCOUNT = "https://github.com/sergeymoryakov/";
@@ -21,9 +23,17 @@ console.log("projects: ", projects);
 
 function App() {
     return (
-        <Box sx={{ minWidth: "250px" }}>
+        <Box
+            sx={{
+                minWidth: "250px",
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "start",
+            }}
+        >
             <CssBaseline />
-            <AppBar position="relative">
+            <AppBar position="relative" sx={{ backgroundColor: "#002060" }}>
                 <Toolbar
                     sx={{
                         display: "flex",
@@ -43,21 +53,28 @@ function App() {
                     </IconButton>
                 </Toolbar>
             </AppBar>
-            <main>
-                <div>
-                    <Container maxWidth="xl">
+            <main className="test-name">
+                <div className="test-div">
+                    <Container
+                        className="test-container"
+                        sx={{
+                            mb: 2,
+                        }}
+                        maxWidth={false}
+                    >
                         <Typography
                             variant="h4"
                             align="center"
                             color="textPrimary"
                             my={2}
-                            // sx={{ border: "1px solid red" }}
                         >
                             Projects
                         </Typography>
                         <Grid
+                            className="test-grid-container"
                             container
                             sx={{
+                                width: "100%",
                                 display: "grid",
                                 gridTemplateColumns: {
                                     xs: "1fr",
@@ -78,6 +95,7 @@ function App() {
                     </Container>
                 </div>
             </main>
+            <StickyFooter />
         </Box>
     );
 }
