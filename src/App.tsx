@@ -12,6 +12,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Logo from "./Components/Logo";
 import MediaCard from "./Components/MediaCard";
+import projects from "./data/data";
+
+console.log("projects: ", projects);
 
 function App() {
     return (
@@ -31,14 +34,7 @@ function App() {
             </AppBar>
             <main>
                 <div>
-                    <Container
-                        maxWidth="xl"
-                        sx={
-                            {
-                                // border: "1px solid red",
-                            }
-                        }
-                    >
+                    <Container maxWidth="xl">
                         <Typography
                             variant="h4"
                             align="center"
@@ -53,31 +49,20 @@ function App() {
                             sx={{
                                 display: "grid",
                                 gridTemplateColumns: {
-                                    xs: "auto",
-                                    sm: "auto auto",
-                                    md: "auto auto auto",
-                                    lg: "auto auto auto auto",
-                                    xl: "auto auto auto auto auto",
+                                    xs: "1fr",
+                                    sm: "1fr 1fr",
+                                    md: "1fr 1fr 1fr",
+                                    lg: "1fr 1fr 1fr 1fr",
+                                    xl: "1fr 1fr 1fr 1fr 1fr",
                                 },
                                 gridGap: "0.5rem",
-                                // border: "1px solid red",
                             }}
                         >
-                            <Grid item>
-                                <MediaCard />
-                            </Grid>
-                            <Grid item>
-                                <MediaCard />
-                            </Grid>
-                            <Grid item>
-                                <MediaCard />
-                            </Grid>
-                            <Grid item>
-                                <MediaCard />
-                            </Grid>
-                            <Grid item>
-                                <MediaCard />
-                            </Grid>
+                            {projects.map((project) => (
+                                <Grid item key={project.id}>
+                                    <MediaCard project={project} />
+                                </Grid>
+                            ))}
                         </Grid>
                     </Container>
                 </div>

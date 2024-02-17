@@ -5,37 +5,61 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Project } from "../data/data";
 
 // import ImgKza from "../assets/images/karagoz-m.jpeg";
-import ImgLumi from "../assets/images/lumiline-m.jpeg";
+// import ImgLumi from "../assets/images/lumiline-m.jpeg";
 // import ImgAvia from "../assets/images/aviaparts-m.jpeg";
 // import ImgSeppo from "../assets/images/seppo-m.jpeg";
 
-export default function MediaCard() {
+interface projectProps {
+    project: Project;
+}
+
+export default function MediaCard({ project }: projectProps) {
     return (
-        <Card>
+        <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }}>
             <CardMedia
                 sx={{
+                    flexGrow: 1,
                     aspectRatio: "16/9",
-                    objectPosition: "top",
+                    objectPosition: "50% 0%",
                     borderRadius: "0.5rem 0.5rem 0 0",
                 }}
-                image={ImgLumi}
+                image={`public/images/${project.image}`}
                 title="website image"
             />
-            <CardContent>
+            <CardContent
+                sx={
+                    {
+                        // flexGrow: 1,
+                    }
+                }
+            >
                 <Typography gutterBottom variant="h5" component="div">
-                    Lizard
+                    {project.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    {project.description}
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Code</Button>
-                <Button size="small">View</Button>
+                {/* <Button
+                    size="small"
+                    LinkComponent="a"
+                    href={project.code}
+                    target="_blank"
+                >
+                    Code
+                </Button> */}
+                <Button
+                    size="small"
+                    LinkComponent="a"
+                    href={project.view}
+                    target="_blank"
+                >
+                    View
+                </Button>
             </CardActions>
         </Card>
     );
