@@ -1,3 +1,4 @@
+import { ReactElement } from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -6,11 +7,11 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Project } from "../data/data";
 
-interface projectProps {
+export default function MediaCard({
+    project,
+}: {
     project: Project;
-}
-
-export default function MediaCard({ project }: projectProps) {
+}): ReactElement {
     return (
         <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }}>
             <CardMedia
@@ -20,7 +21,6 @@ export default function MediaCard({ project }: projectProps) {
                     objectPosition: "50% 0%",
                     borderRadius: "0.5rem 0.5rem 0 0",
                 }}
-                // image={`public/images/${project.image}`}
                 image={`images/${project.image}`}
                 title="website image"
             />

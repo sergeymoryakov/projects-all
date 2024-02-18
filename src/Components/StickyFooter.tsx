@@ -1,9 +1,10 @@
+import { ReactElement } from "react";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 import { COLOR_BACKGROUND, COLOR_FONT } from "../data/variables";
 
-export default function StickyFooter() {
+export default function StickyFooter(): ReactElement {
     return (
         <Box
             component="footer"

@@ -1,27 +1,10 @@
-import {
-    AppBar,
-    Box,
-    CssBaseline,
-    Container,
-    Grid,
-    IconButton,
-    Toolbar,
-    Typography,
-} from "@mui/material";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { Box, CssBaseline, Container, Grid, Typography } from "@mui/material";
 
-import Logo from "./Components/Logo";
+import Header from "./Components/Header";
 import MediaCard from "./Components/MediaCard";
 import StickyFooter from "./Components/StickyFooter";
 
 import projects from "./data/data";
-import {
-    COLOR_BACKGROUND,
-    COLOR_FONT,
-    URL_GITHUB_ACCOUNT,
-} from "./data/variables";
-
-console.log("projects: ", projects);
 
 function App() {
     return (
@@ -35,33 +18,10 @@ function App() {
             }}
         >
             <CssBaseline />
-            <AppBar
-                position="relative"
-                sx={{ backgroundColor: COLOR_BACKGROUND }}
-            >
-                <Toolbar
-                    sx={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-between",
-                    }}
-                >
-                    <Logo></Logo>
-                    <IconButton
-                        LinkComponent="a"
-                        href={URL_GITHUB_ACCOUNT}
-                        target="_blank"
-                        aria-label="github url"
-                        sx={{ color: COLOR_FONT }}
-                    >
-                        <GitHubIcon />
-                    </IconButton>
-                </Toolbar>
-            </AppBar>
-            <main className="test-name">
-                <div className="test-div">
+            <Header />
+            <main>
+                <div>
                     <Container
-                        className="test-container"
                         sx={{
                             mb: 2,
                         }}
@@ -76,7 +36,6 @@ function App() {
                             Projects
                         </Typography>
                         <Grid
-                            className="test-grid-container"
                             container
                             sx={{
                                 width: "100%",
