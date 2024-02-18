@@ -11,7 +11,7 @@ export default function StickyFooter(): ReactElement {
             sx={{
                 py: 2,
                 mt: "auto",
-                backgroundColor: COLOR_BACKGROUND,
+                background: COLOR_BACKGROUND,
                 color: COLOR_FONT,
             }}
         >

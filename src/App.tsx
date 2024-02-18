@@ -33,7 +33,7 @@ function App() {
                             color="textPrimary"
                             my={2}
                         >
-                            Projects
+                            Our Projects
                         </Typography>
                         <Grid
                             container
@@ -50,11 +50,13 @@ function App() {
                                 gridGap: "0.5rem",
                             }}
                         >
-                            {projects.map((project) => (
-                                <Grid item key={project.id}>
-                                    <MediaCard project={project} />
-                                </Grid>
-                            ))}
+                            {projects
+                                .sort((a, b) => a.title.localeCompare(b.title))
+                                .map((project) => (
+                                    <Grid item key={project.id}>
+                                        <MediaCard project={project} />
+                                    </Grid>
+                                ))}
                         </Grid>
                     </Container>
                 </div>

@@ -12,10 +12,7 @@ import {
 function Header(): ReactElement {
     return (
         <>
-            <AppBar
-                position="relative"
-                sx={{ backgroundColor: COLOR_BACKGROUND }}
-            >
+            <AppBar position="relative" sx={{ background: COLOR_BACKGROUND }}>
                 <Toolbar
                     sx={{
                         display: "flex",
