@@ -49,14 +49,17 @@ export default function MediaCard({
                         gap: 0.5,
                     }}
                 >
-                    {project.stack.split("#").map((tech, index) => (
-                        <Chip
-                            label={tech}
-                            key={index}
-                            size="small"
-                            variant="outlined"
-                        />
-                    ))}
+                    {project.stack
+                        .split("#")
+                        .sort()
+                        .map((tech, index) => (
+                            <Chip
+                                label={tech}
+                                key={index}
+                                size="small"
+                                variant="outlined"
+                            />
+                        ))}
                 </Stack>
             </CardContent>
             <CardActions>

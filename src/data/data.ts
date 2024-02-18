@@ -57,7 +57,7 @@ const projects: Project[] = [
         stack: "HTML#CSS",
         view: "https://sergeymoryakov.github.io/cv/",
         code: "https://github.com/sergeymoryakov/",
-        display: false,
+        display: true,
         id: 5,
     },
     {
@@ -87,7 +87,7 @@ const projects: Project[] = [
         stack: "HTML#CSS#JavaScript#Vite#React",
         view: "https://sergeymoryakov.github.io/registration-form/",
         code: "https://github.com/sergeymoryakov/registration-form/",
-        display: false,
+        display: true,
         id: 8,
     },
     {
@@ -127,7 +127,7 @@ const projects: Project[] = [
         stack: "HTML#CSS#JavaScript#Firebase#Parcel",
         view: "https://sergeymoryakov.github.io/action-items-frb/",
         code: "https://github.com/sergeymoryakov/action-items-frb/",
-        display: true,
+        display: false,
         id: 12,
     },
     {

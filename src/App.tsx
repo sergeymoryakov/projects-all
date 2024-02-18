@@ -52,11 +52,14 @@ function App() {
                         >
                             {projects
                                 .sort((a, b) => a.title.localeCompare(b.title))
-                                .map((project) => (
-                                    <Grid item key={project.id}>
-                                        <MediaCard project={project} />
-                                    </Grid>
-                                ))}
+                                .map(
+                                    (project) =>
+                                        project.display && (
+                                            <Grid item key={project.id}>
+                                                <MediaCard project={project} />
+                                            </Grid>
+                                        )
+                                )}
                         </Grid>
                     </Container>
                 </div>
