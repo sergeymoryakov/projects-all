@@ -13,7 +13,7 @@ const projects: Project[] = [
     {
         title: "Karagoz Aviation",
         description: "Website for Karagoz Aviation agency",
-        image: "karagoz-m.jpeg",
+        image: "kza-website.jpeg",
         stack: "HTML#CSS#JavaScript#Web Components#Vite",
         view: "https://sergeymoryakov.github.io/kza-website/",
         code: "https://github.com/sergeymoryakov/kza-website/",
@@ -23,7 +23,7 @@ const projects: Project[] = [
     {
         title: "LumiLine",
         description: "LumiLine Interior Studio website prototype",
-        image: "lumiline-m.jpeg",
+        image: "lumiline-website.jpeg",
         stack: "HTML#CSS#JavaScript",
         view: "https://sergeymoryakov.github.io/lumiline-website/",
         code: "https://github.com/sergeymoryakov/lumiline-website/",
@@ -33,7 +33,7 @@ const projects: Project[] = [
     {
         title: "Aviaparts",
         description: "Aviation asset marketplace prototype",
-        image: "aviaparts-m.jpeg",
+        image: "ecommerce-avia.jpeg",
         stack: "HTML#CSS#JavaScript#Parcel",
         view: "https://sergeymoryakov.github.io/ecommerce-avia/",
         code: "https://github.com/sergeymoryakov/ecommerce-avia",
@@ -43,7 +43,7 @@ const projects: Project[] = [
     {
         title: "SEPPO.Digital",
         description: "Website for SEPPO.digital web studio",
-        image: "seppo-m.jpeg",
+        image: "seppo-digital.jpeg",
         stack: "HTML#CSS#JavaScript",
         view: "https://sergeymoryakov.github.io/seppo-digital/",
         code: "https://github.com/sergeymoryakov/seppo-digital/",
@@ -53,17 +53,17 @@ const projects: Project[] = [
     {
         title: "CV",
         description: "Curriculum Vitae template",
-        image: "no-img-s.jpeg",
+        image: "cv.jpeg",
         stack: "HTML#CSS",
         view: "https://sergeymoryakov.github.io/cv/",
-        code: "https://github.com/sergeymoryakov/",
+        code: "https://github.com/sergeymoryakov/cv/",
         display: true,
         id: 5,
     },
     {
         title: "WebDev Cheat Sheets",
         description: "Web Developer Cheat Sheets",
-        image: "no-img-s.jpeg",
+        image: "cheat-sheets-2024.jpeg",
         stack: "HTML#CSS#Vite#React#TypeScript#Material UI",
         view: "https://sergeymoryakov.github.io/cheat-sheets-2024/",
         code: "https://github.com/sergeymoryakov/cheat-sheets-2024/",
@@ -73,7 +73,7 @@ const projects: Project[] = [
     {
         title: "Fake News",
         description: "Blog platform prototype",
-        image: "no-img-s.jpeg",
+        image: "blog-react.jpeg",
         stack: "HTML#CSS#JavaScript#Vite#React#Firestore",
         view: "https://sergeymoryakov.github.io/blog-react/",
         code: "https://github.com/sergeymoryakov/blog-react/",
@@ -83,7 +83,7 @@ const projects: Project[] = [
     {
         title: "Login/Registration Form",
         description: "User Login and Signup form templates",
-        image: "no-img-s.jpeg",
+        image: "registration-form.jpeg",
         stack: "HTML#CSS#JavaScript#Vite#React",
         view: "https://sergeymoryakov.github.io/registration-form/",
         code: "https://github.com/sergeymoryakov/registration-form/",
@@ -93,7 +93,7 @@ const projects: Project[] = [
     {
         title: "Season's Greetings",
         description: "Christmas Greetings animated card",
-        image: "no-img-s.jpeg",
+        image: "seasons-greetings.jpeg",
         stack: "HTML#CSS#JavaScript",
         view: "https://sergeymoryakov.github.io/seasons-greetings/",
         code: "https://github.com/seasons-greetings/",
@@ -113,7 +113,7 @@ const projects: Project[] = [
     {
         title: "ID Generator",
         description: "ID/Password generation tool",
-        image: "no-img-s.jpeg",
+        image: "id-generator.jpeg",
         stack: "HTML#CSS#TypeScript#Vite",
         view: "https://sergeymoryakov.github.io/id-generator/",
         code: "https://github.com/sergeymoryakov/id-generator/",
@@ -153,7 +153,7 @@ const projects: Project[] = [
     {
         title: "Under Construction",
         description: "Under Construction landing page template",
-        image: "no-img-s.jpeg",
+        image: "under-construction.jpeg",
         stack: "HTML#CSS",
         view: "https://sergeymoryakov.github.io/under-construction/",
         code: "https://github.com/sergeymoryakov/under-construction/",
@@ -161,13 +161,13 @@ const projects: Project[] = [
         id: 15,
     },
     {
-        title: "Zulu Test",
-        description: "Website for LumiLine Interior Design Studio",
-        image: "no-img-s.jpeg",
-        stack: "HTML#CSS#JavaScript#Vite",
-        view: "https://sergeymoryakov.github.io/under-construction/",
-        code: "https://github.com/sergeymoryakov/",
-        display: false,
+        title: "Calculator",
+        description: "Calculator application",
+        image: "calculator-react-ts.jpeg",
+        stack: "HTML#CSS#TypeScript#React#Material UI#Vite",
+        view: "https://sergeymoryakov.github.io/calculator-react-ts/",
+        code: "https://github.com/sergeymoryakov/calculator-react-ts/",
+        display: true,
         id: 16,
     },
     {
