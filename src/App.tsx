@@ -3,6 +3,7 @@ import { Box, CssBaseline, Container, Grid, Typography } from "@mui/material";
 import Header from "./Components/Header";
 import MediaCard from "./Components/MediaCard";
 import StickyFooter from "./Components/StickyFooter";
+import { COLOR_BODY, SHADOW_LIGHT_BG } from "./data/variables";
 
 import projects from "./data/data";
 
@@ -15,6 +16,7 @@ function App() {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "start",
+                background: COLOR_BODY,
             }}
         >
             <CssBaseline />
@@ -32,6 +34,9 @@ function App() {
                             align="center"
                             color="textPrimary"
                             my={2}
+                            sx={{
+                                textShadow: SHADOW_LIGHT_BG,
+                            }}
                         >
                             Our Projects
                         </Typography>
@@ -47,7 +52,7 @@ function App() {
                                     lg: "1fr 1fr 1fr 1fr",
                                     xl: "1fr 1fr 1fr 1fr 1fr",
                                 },
-                                gridGap: "0.5rem",
+                                gridGap: "1rem",
                             }}
                         >
                             {projects

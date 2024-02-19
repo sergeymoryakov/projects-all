@@ -8,6 +8,7 @@ import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Project } from "../data/data";
+// import { SHADOW_LIGHT_BG } from "../data/variables";
 
 export default function MediaCard({
     project,
@@ -15,7 +16,14 @@ export default function MediaCard({
     project: Project;
 }): ReactElement {
     return (
-        <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }}>
+        <Card
+            sx={{
+                display: "flex",
+                flexDirection: "column",
+                height: "100%",
+                // background: SHADOW_LIGHT_BG,
+            }}
+        >
             <CardMedia
                 sx={{
                     aspectRatio: "16/9",
